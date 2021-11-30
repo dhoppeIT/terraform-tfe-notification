@@ -1,10 +1,10 @@
 ---
 repository:
-  name: terraform-module-template
-  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_FIXME)
-  homepage: https://registry.terraform.io/modules/dhoppeIT/FIXME/tfe/latest
-  topics: terraform, tfe_FIXME
-  private: true
+  name: terraform-tfe-notification
+  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_notification_configuration)
+  homepage: https://registry.terraform.io/modules/dhoppeIT/notification/tfe/latest
+  topics: terraform, tfe_notification_configuration
+  private: false
   has_issues: true
   has_projects: false
   has_wiki: false
