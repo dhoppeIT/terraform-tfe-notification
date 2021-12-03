@@ -3,7 +3,7 @@ repository:
   name: terraform-tfe-notification
   description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_notification_configuration)
   homepage: https://registry.terraform.io/modules/dhoppeIT/notification/tfe/latest
-  topics: terraform, tfe_notification_configuration
+  topics: terraform, tfe, notification-configuration
   private: false
   has_issues: true
   has_projects: false
