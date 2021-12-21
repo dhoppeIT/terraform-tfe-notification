@@ -69,15 +69,15 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_destination_type"></a> [destination\_type](#input\_destination\_type) | The type of notification configuration payload to send | `string` | `null` | no |
+| <a name="input_destination_type"></a> [destination\_type](#input\_destination\_type) | The type of notification configuration payload to send | `string` | n/a | yes |
 | <a name="input_email_addresses"></a> [email\_addresses](#input\_email\_addresses) | A list of email addresses | `list(string)` | `null` | no |
 | <a name="input_email_user_ids"></a> [email\_user\_ids](#input\_email\_user\_ids) | A list of user IDs | `list(string)` | `null` | no |
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | Whether the notification configuration should be enabled or not | `bool` | `false` | no |
-| <a name="input_name"></a> [name](#input\_name) | Name of the notification configuration | `string` | `null` | no |
+| <a name="input_name"></a> [name](#input\_name) | Name of the notification configuration | `string` | n/a | yes |
 | <a name="input_token"></a> [token](#input\_token) | A write-only secure token for the notification configuration | `string` | `null` | no |
 | <a name="input_triggers"></a> [triggers](#input\_triggers) | The array of triggers for which this notification configuration will send notifications | `list(string)` | `[]` | no |
-| <a name="input_url"></a> [url](#input\_url) | The HTTP or HTTPS URL of the notification configuration where notification requests will be made | `string` | `null` | no |
-| <a name="input_workspace_id"></a> [workspace\_id](#input\_workspace\_id) | The id of the workspace that owns the notification configuration | `string` | `null` | no |
+| <a name="input_url"></a> [url](#input\_url) | The HTTP or HTTPS URL of the notification configuration where notification requests will be made | `string` | n/a | yes |
+| <a name="input_workspace_id"></a> [workspace\_id](#input\_workspace\_id) | The id of the workspace that owns the notification configuration | `string` | n/a | yes |
 
 ## Outputs
 

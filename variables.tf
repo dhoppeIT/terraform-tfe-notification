@@ -1,12 +1,10 @@
 variable "name" {
   type        = string
-  default     = null
   description = "Name of the notification configuration"
 }
 
 variable "destination_type" {
   type        = string
-  default     = null
   description = "The type of notification configuration payload to send"
 }
 
@@ -42,12 +40,10 @@ variable "triggers" {
 
 variable "url" {
   type        = string
-  default     = null
   description = "The HTTP or HTTPS URL of the notification configuration where notification requests will be made"
 }
 
 variable "workspace_id" {
   type        = string
-  default     = null
   description = "The id of the workspace that owns the notification configuration"
 }
