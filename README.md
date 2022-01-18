@@ -5,7 +5,7 @@ Terraform module to manage the Terraform Cloud/Enterprise resource
 
 ## Graph
 
-![Graph](https://github.com/dhoppeIT/terraform-tfe-notification/blob/main/rover.png)
+<img alt="Graph" src="https://github.com/dhoppeIT/terraform-tfe-notification/blob/main/rover.svg?raw=true" width="100%" height="100%">
 
 ## Usage
 
