@@ -12,21 +12,21 @@ Terraform module to manage the Terraform Cloud/Enterprise resource
 Copy and paste into your Terraform configuration, insert the variables and run ```terraform init```:
 
 ```hcl
-module "tfe-organization" {
+module "tfe_organization" {
   source = "dhoppeIT/organization/tfe"
 
   name  = "dhoppeIT"
   email = "terraform@dhoppe.it"
 }
 
-module "tfe-workspace" {
+module "tfe_workspace" {
   source = "dhoppeIT/workspace/tfe"
 
   name         = "terraform"
-  organization = module.tfe-organization.name
+  organization = module.tfe_organization.name
 }
 
-module "tfe-notification" {
+module "tfe_notification" {
   source = "dhoppeIT/notification/tfe"
 
   name             = "slack"
@@ -37,7 +37,7 @@ module "tfe-notification" {
     "run:errored"
   ]
   url              = "https://hooks.slack.com/services/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"
-  workspace_id     = module.tfe-workspace.id
+  workspace_id     = module.tfe_workspace.id
 }
 ```
 
