@@ -53,7 +53,7 @@ module "tfe-notification" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | >= 0.26.1, < 1.0.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.27.1 |
 
 ## Modules
 
