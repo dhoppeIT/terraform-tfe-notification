@@ -16,7 +16,7 @@ jobs:
       - name: Generate Readme
         uses: terraform-docs/gh-actions@v0.11.0
         with:
-          working-dir: .
+          working-dir: .,examples/email,examples/slack
           output-file: README.md
           output-method: inject
           git-commit-message: "docs: Generate README.md"
