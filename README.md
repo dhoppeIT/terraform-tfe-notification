@@ -76,7 +76,7 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Name of the notification configuration | `string` | n/a | yes |
 | <a name="input_token"></a> [token](#input\_token) | A write-only secure token for the notification configuration | `string` | `null` | no |
 | <a name="input_triggers"></a> [triggers](#input\_triggers) | The array of triggers for which this notification configuration will send notifications | `list(string)` | `[]` | no |
-| <a name="input_url"></a> [url](#input\_url) | The HTTP or HTTPS URL of the notification configuration where notification requests will be made | `string` | n/a | yes |
+| <a name="input_url"></a> [url](#input\_url) | The HTTP or HTTPS URL of the notification configuration where notification requests will be made | `string` | `null` | no |
 | <a name="input_workspace_id"></a> [workspace\_id](#input\_workspace\_id) | The id of the workspace that owns the notification configuration | `string` | n/a | yes |
 
 ## Outputs
