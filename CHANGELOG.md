@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/dhoppeIT/terraform-tfe-notification/compare/v0.1.2...v0.2.0) (2022-02-02)
+
+
+### Features
+
+* Add ID of the notification configuraton as output ([#22](https://github.com/dhoppeIT/terraform-tfe-notification/issues/22)) ([98d81bf](https://github.com/dhoppeIT/terraform-tfe-notification/commit/98d81bf78efa73340a540b27360319babbf4d11b))
+
 ### [0.1.2](https://github.com/dhoppeIT/terraform-tfe-notification/compare/v0.1.1...v0.1.2) (2022-02-02)
 
 
