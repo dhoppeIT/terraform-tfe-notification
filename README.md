@@ -1,7 +1,8 @@
 # terraform-tfe-notification
 
-Terraform module to manage the Terraform Cloud/Enterprise resource
-(tfe_notification_configuration).
+Terraform module to manage the following Terraform Cloud/Enterprise resource:
+
+* tfe_notification_configuration
 
 ## Graph
 
@@ -13,31 +14,34 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 
 ```hcl
 module "tfe_organization" {
-  source = "dhoppeIT/organization/tfe"
+  source  = "dhoppeIT/organization/tfe"
+  version = "~> 0.1"
 
   name  = "dhoppeIT"
   email = "terraform@dhoppe.it"
 }
 
 module "tfe_workspace" {
-  source = "dhoppeIT/workspace/tfe"
+  source  = "dhoppeIT/workspace/tfe"
+  version = "~> 0.2"
 
   name         = "terraform"
   organization = module.tfe_organization.name
 }
 
 module "tfe_notification" {
-  source = "dhoppeIT/notification/tfe"
+  source  = "dhoppeIT/notification/tfe"
+  version = "~> 0.1"
 
   name             = "slack"
   enabled          = true
   destination_type = "slack"
-  triggers         = [
+  triggers = [
     "run:needs_attention",
     "run:errored"
   ]
-  url              = "https://hooks.slack.com/services/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"
-  workspace_id     = module.tfe_workspace.id
+  url          = "https://hooks.slack.com/services/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"
+  workspace_id = module.tfe_workspace.id
 }
 ```
 
@@ -53,7 +57,7 @@ module "tfe_notification" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.27.1 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.28.0 |
 
 ## Modules
 
@@ -81,7 +85,9 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | The ID of the notification configuration |
 
 <!--- END_TF_DOCS --->
 
