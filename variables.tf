@@ -40,6 +40,7 @@ variable "triggers" {
 
 variable "url" {
   type        = string
+  default     = null
   description = "The HTTP or HTTPS URL of the notification configuration where notification requests will be made"
 }
 
