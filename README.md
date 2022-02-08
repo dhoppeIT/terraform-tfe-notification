@@ -57,7 +57,7 @@ module "tfe_notification" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.28.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.28.1 |
 
 ## Modules
 
