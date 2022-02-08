@@ -1,4 +1,4 @@
 output "notification_id" {
-  value       = try(module.tfe_notification.id, null)
+  value       = module.tfe_notification.id
   description = "The ID of the notification configuration"
 }
