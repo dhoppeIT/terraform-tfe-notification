@@ -6,6 +6,7 @@ provider "registry.terraform.io/hashicorp/tfe" {
   constraints = "~> 0.26"
   hashes = [
     "h1:VeCmmlmx9MFiEOzZn40IiqYcg5qjT5HN4txbPC5z2Hk=",
+    "h1:X2naJz2v0/G9EBqLRA2nIBZ6Aczsl5RLK7tRUd7c9uM=",
     "zh:04ac7d56a2222874f43411dff2ae3daa78a37353313dbd7b4d1f6f896596761c",
     "zh:0c7468ab225c6a3d3660bc3daf6f5b1a1cbb586a86af32ec2bc7c2af489f6e49",
     "zh:3245b66e7f11daed90fa2209ab3414cf5494a6216b408e9ee2458783679bb4b9",
