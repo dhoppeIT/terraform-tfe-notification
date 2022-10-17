@@ -55,7 +55,6 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_notification_id"></a> [notification\_id](#output\_notification\_id) | The ID of the notification configuration |
-
 <!-- END_TF_DOCS -->
 
 ## Authors
